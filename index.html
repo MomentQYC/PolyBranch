@@ -25,10 +25,10 @@
 		<!--[if lt IE 9]>
 			<script type="text/javascript">alert("Your browser does not support the canvas tag.");</script>
 		<![endif]-->
-		<script src="js/libs/processing-1.4.1.min.js" type="text/javascript"></script>
-		<script src="js/libs/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="polybranchweb/js/libs/processing-1.4.1.min.js" type="text/javascript"></script>
+		<script src="polybranchweb/js/libs/jquery-1.8.3.min.js" type="text/javascript"></script>
 		<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
-		<link href='css/styles.css' rel='stylesheet' type='text/css'>
+		<link href='polybranchweb/css/styles.css' rel='stylesheet' type='text/css'>
 		<script type="text/javascript">
 		   var bound = false;
 		   var pjs;
@@ -45,7 +45,7 @@
 		    bindJavascript();
 
 		</script>
-		<script src="js/script.js" type="text/javascript"></script>
+		<script src="polybranchweb/js/script.js" type="text/javascript"></script>
 		<script type="text/javascript">
 // convenience function to get the id attribute of generated sketch html element
 function getProcessingSketchId () { return 'polybranch'; }
@@ -55,7 +55,7 @@ function getProcessingSketchId () { return 'polybranch'; }
 	<body>
 		<div id="content">
 			<div id="game-wrapper">
-				<canvas id="polybranch" data-processing-sources="polybranch.pjs" 
+				<canvas id="polybranch" data-processing-sources="polybranchweb/polybranch.pjs" 
 						width="800" height="800">
 					<p>Your browser does not support the canvas tag.</p>
 					<!-- Note: you can put any alternative content here. -->
@@ -70,7 +70,7 @@ function getProcessingSketchId () { return 'polybranch'; }
 					<h1 id="score">0</h1>
 					<h1 id="level">L<span>1</span></h1>
 				</div>
-				<img id="arrowkeys" src="Arrow_keys.png"/>
+				<img id="arrowkeys" src="polybranchweb/Arrow_keys.png"/>
 				<div class="overlay" id="flash"></div>
 				<div class="overlay" id="gameover-menu">
 					<div class="content">
